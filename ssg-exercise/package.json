@@ -1,0 +1,14 @@
+{
+  "name": "cse134-hw5-ssg-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CSE 134B HW5 Part 4: two portfolio pages built by Eleventy with a shared footer include.",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
