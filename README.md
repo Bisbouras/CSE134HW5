@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Repository URL | https://github.com/Bisbouras/CSE134HW5 |
-| Deployed URL | TODO - HW5 Netlify URL |
+| Deployed URL | https://willowy-tapioca-6bcd53.netlify.app/ |
 | Web Component page | dad-jokes.html (linked as "Dad Jokes" in the main navigation) |
 | Component code | js/joke-panel.js (`<joke-panel>`) |
 | Page control and saved preference | js/joke-page.js (localStorage key `hw5-joke-panel-mode`) |

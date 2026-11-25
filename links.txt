@@ -1,2 +1,3 @@
-Repository: https://github.com/Bisbouras/CSE134HW5
-Website: https://joyful-lolly-9b5bb8.netlify.app/
+https://github.com/Bisbouras/CSE134HW5
+https://willowy-tapioca-6bcd53.netlify.app/
+https://willowy-tapioca-6bcd53.netlify.app/dad-jokes.html
