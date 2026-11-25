@@ -1,7 +1,7 @@
 /*
-  styles.css - CSE 134B HW4
+  styles.css - CSE 134B HW5
   Author: Christos-Iason Enotiadis
-  Repo: https://github.com/Bisbouras/CSE134HW4
+  Repo: https://github.com/Bisbouras/CSE134HW5
 */
 
 /* theme - dark (default) */
@@ -597,6 +597,43 @@ nav > ul > li:last-child > ul {
 #theme-toggle:hover {
   color: var(--text-strong);
   background-color: var(--bg-raised);
+  border-color: var(--accent);
+}
+
+/* dad jokes - site theme passed into the joke panel */
+joke-panel {
+  --joke-bg: var(--bg-raised);
+  --joke-border: var(--border);
+  --joke-text: var(--text);
+  --joke-text-dim: var(--text-dim);
+  --joke-heading: var(--text-strong);
+  --joke-accent: var(--accent);
+  --joke-accent-hover: var(--accent-hover);
+  --joke-on-accent: var(--on-accent);
+  --joke-error: var(--error);
+  --joke-radius: var(--radius);
+  --joke-font-display: var(--font-display);
+  margin: 0 0 1.25rem;
+}
+
+/* dad jokes - compact toggle above the panel */
+#joke-mode-row {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 0 0.75rem;
+}
+
+#joke-mode-toggle {
+  padding: 0.35em 0.9em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
+  background-color: var(--bg-raised);
+  border: 1px solid var(--border);
+}
+
+#joke-mode-toggle:hover {
+  color: var(--text-strong);
   border-color: var(--accent);
 }
 

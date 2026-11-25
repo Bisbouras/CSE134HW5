@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dad jokes on demand: a small web component that fetches a random joke from icanhazdadjoke.com.">
+  <meta name="author" content="Christos-Iason Enotiadis">
+  <title>Dad Jokes | Christos Enotiadis</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&amp;family=Archivo+Expanded:wght@600;700&amp;display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/theme.js"></script>
+  <script src="js/joke-panel.js" defer></script>
+  <script src="js/joke-page.js" defer></script>
+</head>
+<body>
+  <header>
+    <p><a href="index.html"><b>Christos Enotiadis</b></a></p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#work-heading">Work</a>
+          <ul>
+            <li><a href="killstreak.html">KILLSTREAK</a></li>
+            <li><a href="vpt.html">Volumetric Path Tracing</a></li>
+            <li><a href="poker.html">Poker Engine</a></li>
+          </ul>
+        </li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="dad-jokes.html" aria-current="page">Dad Jokes</a></li>
+        <li><a href="form-with-js.html">Contact</a>
+          <ul>
+            <li><a href="form-with-js.html">Contact form, with JavaScript</a></li>
+            <li><a href="form-no-js.html">Contact form, no JavaScript</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" id="theme-toggle" hidden>Light theme</button>
+  </header>
+
+  <main>
+    <h1>Dad jokes</h1>
+    <p>
+      Every press of <b>Make me groan</b> fetches a random joke from
+      <a href="https://icanhazdadjoke.com/">icanhazdadjoke.com</a>. I take no responsibility for the quality.
+    </p>
+
+    <noscript>
+      <p>Enable JavaScript to load live data for this widget. The rest of the site works without it.</p>
+    </noscript>
+
+    <div id="joke-mode-row">
+      <button type="button" id="joke-mode-toggle" aria-controls="dad-joke-panel" hidden>Compact view</button>
+    </div>
+
+    <joke-panel id="dad-joke-panel"></joke-panel>
+  </main>
+
+  <footer>
+    <address>
+      <ul>
+        <li><a href="mailto:cenotiadis@ucsd.edu">Email</a></li>
+        <li><a href="https://github.com/Bisbouras">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/christos-enotiadis">LinkedIn</a></li>
+        <li><a href="docs/cv.pdf">CV (PDF)</a></li>
+      </ul>
+    </address>
+    <p><small>&copy; 2026 Christos-Iason Enotiadis. HTML, CSS and a little JavaScript, CSE 134B Homework 5.</small></p>
+  </footer>
+</body>
+</html>
